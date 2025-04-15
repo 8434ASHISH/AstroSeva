@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroSeva - ज्योतिष का विज्ञान, भविष्य की सही दिशा</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-navy sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="AstroSeva Logo" height="40">
+      </a>
+      <div class="navbar-text text-gold">ज्योतिष का विज्ञान, भविष्य की सही दिशा</div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#rashi">राशि</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kundli">कुंडली</a></li>
+          <li class="nav-item"><a class="nav-link" href="#shaadi">शादी तिथि</a></li>
+          <li class="nav-item"><a class="nav-link" href="#palm">हस्त रेखा</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horoscope">राशिफल</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white">
+    <div class="container">
+      <h1 class="display-4">AstroSeva</h1>
+      <p class="lead">ज्योतिष का विज्ञान, भविष्य की सही दिशा</p>
+      <a href="#features" class="btn btn-gold btn-lg mt-3">हमारी सेवाएं देखें</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">हमारी सेवाएं</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card feature-card">
+            <img src="assets/rashi-icon.png" class="card-img-top" alt="Rashi">
+            <div class="card-body">
+              <h5 class="card-title">राशि जानें</h5>
+              <p class="card-text">जन्म तिथि से अपनी राशि और भविष्यवाणी जानें।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card feature-card">
+            <img src="assets/kundli-icon.png" class="card-img-top" alt="Kundli">
+            <div class="card-body">
+              <h5 class="card-title">कुंडली बनाएं</h5>
+              <p class="card-text">वैदिक ज्योतिष के आधार पर कुंडली बनाएं और मिलाएं।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card feature-card">
+            <img src="assets/shaadi-icon.png" class="card-img-top" alt="Shaadi">
+            <div class="card-body">
+              <h5 class="card-title">शुभ विवाह तिथि</h5>
+              <p class="card-text">शादी के लिए शुभ मुहूर्त और तिथियां जानें।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card feature-card">
+            <img src="assets/palm-icon.png" class="card-img-top" alt="Palm">
+            <div class="card-body">
+              <h5 class="card-title">हस्त रेखा विश्लेषण</h5>
+              <p class="card-text">हाथ की रेखाओं से भविष्य का विश्लेषण करें।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card feature-card">
+            <img src="assets/horoscope-icon.png" class="card-img-top" alt="Horoscope">
+            <div class="card-body">
+              <h5 class="card-title">दैनिक राशिफल</h5>
+              <p class="card-text">रोजाना राशिफल पढ़ें और दिन की शुरुआत करें।</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Functional Sections (Same as Before) -->
+  <section id="rashi" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">राशि जानें</h2>
+      <form id="rashiForm" class="col-md-6 mx-auto">
+        <input type="date" id="birthDate" class="form-control mb-2" required>
+        <button type="submit" class="btn btn-gold">राशि देखें</button>
+      </form>
+      <p id="rashiResult" class="mt-2 text-center"></p>
+    </div>
+  </section>
+
+  <!-- Add other sections (Kundli, Shaadi, Palm, Horoscope) from previous code -->
+
+  <footer class="bg-navy text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 AstroSeva. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
