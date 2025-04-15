@@ -1,0 +1,36 @@
+/* Custom Colors */
+.bg-navy { background-color: #1a2a44; }
+.text-gold { color: #f4c430; }
+.btn-gold { background-color: #f4c430; color: #1a2a44; }
+.btn-gold:hover { background-color: #e0b028; }
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section h1 { font-size: 3.5rem; font-weight: bold; }
+.hero-section p { font-size: 1.5rem; }
+
+/* Feature Cards */
+.feature-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.feature-card img { height: 150px; object-fit: cover; }
+
+/* General */
+body { font-family: 'Noto Sans', sans-serif; }
+section { padding: 60px 0; }
+h2 { color: #1a2a44; font-weight: bold; }
